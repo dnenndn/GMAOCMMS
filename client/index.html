@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GMAO CMMS</title>
+    
+    <!-- Temporary CDN for testing -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Fallback styles if CDN fails */
+      body { font-family: sans-serif; margin: 0; padding: 20px; }
+      .test { color: red; font-weight: bold; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="test" style="display: none;">CSS Test Fallback</div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
